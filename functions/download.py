@@ -2,7 +2,7 @@ import yfinance as yf
 import pandas as pd
 
 
-def download_data(ticker: str = 'TSLA') -> pd.DataFrame:
+def download_data(ticker: str = 'AAPL') -> pd.DataFrame:
     """
     Download historical price data for a given stock ticker using yfinance.
 
