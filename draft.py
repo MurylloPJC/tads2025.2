@@ -1,2 +1,3 @@
-# Meu Primeiro Draft
-2+2
+from functions.download import download_data
+
+download_data('TSLA')
